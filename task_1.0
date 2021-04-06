@@ -1,0 +1,30 @@
+-- create a table
+CREATE TABLE students (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  country TEXT NOT NULL,
+  ranking INTEGER NOT NULL
+);
+-- insert some values
+INSERT INTO students VALUES (1, 'Jasprit Bhumra', 'India', 15 );
+INSERT INTO students VALUES (2, 'Stev Smith', 'Australia', 76);
+INSERT INTO students VALUES (3, 'Sachine', 'India', 876);
+INSERT INTO students VALUES (4, 'Zampa', 'Australia',65);
+INSERT INTO students VALUES (5, 'Williamson', 'New Zeland',61);
+INSERT INTO students VALUES (6, 'Sakib Al Hasan', 'Bangladesh',87);
+INSERT INTO students VALUES (7, 'Virat Kohli', 'India',99);
+INSERT INTO students VALUES (8, 'AB Divillers', 'South Africa',76);
+INSERT INTO students VALUES (9, 'Joe Root', 'England',89);
+INSERT INTO students VALUES (10, 'Rohit Sharma', 'India',65);
+
+
+-- fetch some values
+SELECT * FROM students WHERE country = 'India';
+
+SELECT * FROM students WHERE country = 'Australia';
+
+
+
+
+
+
